@@ -9,8 +9,8 @@ from google.cloud import storage
 app = Flask(__name__)
 
 @app.route('/')
-def home():
-    return "<p>Hello, This is OCR to Text!</p>"
+def hello():
+    return "Hello Flask-Heroku"
 
 if __name__ == "__main__":
     app.run(debug=False)
