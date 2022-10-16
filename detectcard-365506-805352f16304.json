@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "detectcard-365506",
+  "private_key_id": "805352f16304ed4e803d0ac2a32fa7b7111114de",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrj6Sm1ACLl1/c\nlhqUczVWZdWltc1aO4d9R52DaEVyZZlH4dDXpdHaSMkuUkXyuPubQ4cvg6sKZWIl\nsalaMYagrs6nEXDUHRUzWP81HmpEyWGeE15xu1JypM7FcBnW8/GxYDgAzHKjLj/t\nG+5lm8ghDjEtt5TatfUGEbrNSwStQHk1LpJR4v2+w09X96vqYvyQ0F0Ao2HdYUFo\nSuD5jvLfaWavR6hTBeAtkkT2Fg9SUw+o2tgUFL2qIVp/UW4tEBc/I5cfWiZ3SRBM\nfnyxE8sJ6GCu2Oeolf5yRsfTlZKDcTTQVqhEh53Hm5xoYBjbzYy0/pBDjc8loxx9\nr9DryXVnAgMBAAECggEAKshEYBHoHOdf0WthL3nXaDc24v8GOaU0sWolfnqHLvLl\nGYbXhJ9mSI/0E2gS52d33w0k7hVgltQXeJzoRYSqNPHCuOjhgRPLkKV15vIxv/uU\nK05bM/NpqQsuQRAmcXMd54S+EnzpbYYADQn1FkOV0aBvZR4tsajEdIIBWmaFwQo1\naYFHS9f8qVPBUF+c0PtTPI2hVfqoWeh7tNPH0vN3c+WIpfxUrb8BnzD8ml2gjadG\nZ2zU/6OWvCmCLBjQpKQ/V/AfiWqNpzuzXPAQKSSVoHXDCCgV97sBQEWFP0geqd/2\nV7Yj9pqsxV685aNIfuzQAjc/NDjg/Bpe5jggTvoSoQKBgQDSmOaEQxLmQwlM47li\nAv4uyGVIx8I4g5R27ORkWdGv2AP4Y2qoEl7soq94LmHxs4e7meozuha6/H7kvuUS\nRhYAFF4Xw/WQU9MvAc7cKXmICkJ+dPkL3iquYP6mgkHyOGTWiq93asnPaiF//eJI\nP6qGorWyE54D19oJ4HhynfVkdwKBgQDQjEsMxX/+Jj2ULRT+sNVI99H6lgTa5UbO\nMIiT27KChp78/TKwfT8HfuCsPXKf/TB8oiH+RbaresTmejdvCWiWA0pWjxlZqZJh\nKg0D9npPc3KDWWuY0D8n2mnk32UrwGkMxr/2BRMDc04PIHmtbMNxGr1DErC6EtHg\nPpalOtpikQKBgF5Tkdxn1o1ANWg1D5Gw2XzG0WbZ4kpB1Tu3O00fVeY3EQAuN1V0\ndQP0kjd4PvJtgTwr4lSs4wV5lrSKNDwNHEmI1eQ7J0Av64VAgBDomsCuJ75QUkRY\njDFyzFx0N2lwjOnzUEhikmXOmZakdrf5nD2Vn2BVnQ8HnWeTHR/pVEJdAoGBAMyI\nO3bcIEqPEKfJiyS7I4M74glkpoBUixvfx6NTvgB7rWQro1Iqk+1zB0CFx2yXsb0a\nekJZ9uy5LHFqfgF9dcBim77G+7LPN0vqJPe0/YH8lNuzkG5AFyCr+l1Ip33AaIbq\nSgwsL9ibdnwpeoyW9htwgRxOMVtc58+JMs/8J4CxAoGANbTe2LyKV+de+HYYrSR2\nxtdsOtukx+NnT4FfYY9Qld21N7AxajkV4UPXA9oPACHq6ZpBoKm116zGKibOQyie\nX6khrz5TrAQH2i+XESU0hJK8FEija9dxKJPuGlssZkThvO3rJU50LglZU1IFPG/F\nPfB1NEPuAqNhcpWGMwMl9L8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ocridcard@detectcard-365506.iam.gserviceaccount.com",
+  "client_id": "111450278705326851721",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ocridcard%40detectcard-365506.iam.gserviceaccount.com"
+}
