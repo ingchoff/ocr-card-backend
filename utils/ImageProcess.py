@@ -27,7 +27,6 @@ def align_images(image, template):
   # check to see if we should visualize the matched keypoints
   matchedVis = cv2.drawMatchesKnn(image, keypoints1,template, keypoints2, good_matches,None,flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
   matchedVis = imutils.resize(matchedVis, width=1000)
-  # cv2.imshow("Matched Keypoints", matchedVis)
   points1 = np.float32([keypoints1[m[0].queryIdx].pt for m in good_matches])
   points2 = np.float32([keypoints2[m[0].trainIdx].pt for m in good_matches])
 

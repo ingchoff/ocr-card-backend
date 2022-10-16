@@ -20,7 +20,6 @@ def main():
     # Download image from cloud storage
     path = body['path']
     list_path = path.split('/')
-    print(list_path)
     form_path = 'image/card.jpg'
     list_form_path = form_path.split('/')
     tmp_form_path = os.path.join(tempfile.gettempdir(), list_form_path[1])
