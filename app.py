@@ -1,10 +1,10 @@
-import os
-import tempfile
+# import os
+# import tempfile
 # import cv2
-from base64 import b64encode
+# from base64 import b64encode
 from flask import Flask, request
-from utils import ImageProcess
-from google.cloud import storage
+# from utils import ImageProcess
+# from google.cloud import storage
 
 app = Flask(__name__)
 
