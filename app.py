@@ -12,6 +12,9 @@ app = Flask(__name__)
 def home():
     return "<p>Hello, This is OCR to Text!</p>"
 
+if __name__ == "__main__":
+    app.run(debug=False)
+
 # @app.post('/ocr')
 # def main():
 #   content_type = request.headers.get('Content-Type')
