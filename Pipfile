@@ -9,6 +9,8 @@ flask = "*"
 gunicorn = "*"
 numpy = "*"
 imutils = "*"
+google-cloud-vision = "*"
+google-cloud-storage = "*"
 
 [dev-packages]
 
