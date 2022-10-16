@@ -8,7 +8,7 @@ from google.cloud import storage
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def home():
     return "<p>Hello, This is OCR to Text!</p>"
 
