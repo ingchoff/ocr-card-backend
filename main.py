@@ -22,7 +22,8 @@ def ocr():
     list_path = path.split('/')
     form_path = 'image/card.jpg'
     list_form_path = form_path.split('/')
-    tmp_form_path = os.path.join(tempfile.gettempdir(), 'image/' + list_form_path[1])
+    tmp_form_path = os.path.join(tempfile.gettempdir(),  list_form_path[1])
+    print(tmp_form_path)
     tmp_image_path = os.path.join(tempfile.gettempdir(), list_path[1])
     storage_client = storage.Client()
     bucket = storage_client.bucket('ocr-card')
@@ -40,7 +41,7 @@ def ocr():
     response = {
       'full': list_texts,
       'status': 'success',
-      'id': list_texts[1],
+      'id': list_texts[1].replace(" ", ""),
       'name_thai': list_texts[4].split(' ').pop(1) + list_texts[4].split(' ').pop(2) + ' ' + list_texts[4].split(' ').pop(3),
       'name_eng': list_texts[5].split(' ').pop(1) + list_texts[5].split(' ').pop(2) + ' ' + list_texts[7].split(' ').pop(2)
     }
