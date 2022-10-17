@@ -20,17 +20,16 @@ def ocr():
     # Download image from cloud storage
     path = body['path']
     list_path = path.split('/')
-    form_path = 'image/card.jpg'
+    form_path = '/image/card.jpg'
     list_form_path = form_path.split('/')
-    tmp_form_path = os.path.join(tempfile.gettempdir(),  list_form_path[1])
-    print(tmp_form_path)
+    # tmp_form_path = os.path.join(tempfile.gettempdir(),  list_form_path[1])
     tmp_image_path = os.path.join(tempfile.gettempdir(), list_path[1])
     storage_client = storage.Client()
     bucket = storage_client.bucket('ocr-card')
     blob_image = bucket.blob(path)
     blob_image.download_to_filename(tmp_image_path)
     image = cv2.imread(tmp_image_path)
-    form = cv2.imread(tmp_form_path)
+    form = cv2.imread(form_path)
     cropped_image = ImageProcess.align_images(image, form)
     cvbase64string = b64encode(cv2.imencode('.jpg', cropped_image)[1]).decode("UTF-8")
     texts = ImageProcess.ocr(cvbase64string)
