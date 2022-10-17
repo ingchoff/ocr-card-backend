@@ -20,7 +20,7 @@ def ocr():
     # Download image from cloud storage
     path = body['path']
     list_path = path.split('/')
-    form_path = '/image/card.jpg'
+    form_path = './image/card.jpg'
     list_form_path = form_path.split('/')
     # tmp_form_path = os.path.join(tempfile.gettempdir(),  list_form_path[1])
     tmp_image_path = os.path.join(tempfile.gettempdir(), list_path[1])
