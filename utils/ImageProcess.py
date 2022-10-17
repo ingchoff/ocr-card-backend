@@ -22,7 +22,7 @@ def align_images(image, template):
   # the "more similar" the features are)
   good_matches = []
   for m, n in matches:
-    if m.distance < 0.7 * n.distance:
+    if m.distance < 0.6 * n.distance:
       good_matches.append([m])
   # check to see if we should visualize the matched keypoints
   matchedVis = cv2.drawMatchesKnn(image, keypoints1,template, keypoints2, good_matches,None,flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
